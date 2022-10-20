@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+<style>
+    body {
+        height: 1000px;
+    }
+    #principal {
+        background-color: darkslateblue;
+        margin: 40px;
+        width: 400px;
+        height: 600px;
+    }
+    #fixed {
+        border: solid black;
+        position: fixed;
+        top: 0px;
+        left: 90%;
+        width: 100%;
+    }
+    #absolute{
+        border: solid black;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    #relative {
+        border: solid black;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 70%;
+        height: 80%;
+    }
+</style>
+
+</head>
+<body>
+    <div id="principal">
+        <div id="fixed">
+            <h1>Fixed</h1>
+        </div>
+        <div id="absolute">
+            <h1>Absolute</h1>
+        </div>
+        <div id="relative">
+            <h1>Relative</h1>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

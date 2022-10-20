@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    background-color: rgb(164, 184, 184);
+    width: 100%;
+    height: 629px;
+    overflow: hidden;
+    position: relative;
+}
+.neve1 {
+    background-image: url(neve.png);
+    background-repeat: repeat;
+    filter: blur();
+    width: 100%;
+    height: 629px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: animateum 12s infinite linear;
+}
+.neve4 {
+    background-image: url(neve.png);
+    background-repeat: repeat;
+    filter: blur();
+    width: 100%;
+    height: 629px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: animatequatro 12s infinite linear;
+}
+.neve2 {
+    background-image: url(neve.png);
+    background-repeat: repeat;
+    background-size: 500px;
+    filter: blur();
+    width: 100%;
+    height: 629px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: animatedois 12s infinite linear;
+}
+.neve3 {
+    background-image: url(neve.png);
+    background-repeat: repeat;
+    background-size: 1000px;
+    filter: blur();
+    width: 100%;
+    height: 629px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: animatetres 12s infinite linear;
+}
+@keyframes animateum {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 100px 629px;
+    }
+}
+@keyframes animatedois {
+    0% {
+        background-position: 0px 100px;
+    }
+    100% {
+        background-position: 0px 629px;
+    }
+}
+@keyframes animatetres {
+    0% {
+        background-position: 0px 100px;
+    }
+    100% {
+        background-position: 300px 629px;
+    }
+}
+@keyframes animatequatro {
+    0% {
+        background-position: 0px 50px;
+    }
+    100% {
+        background-position: 300px 629px;
+    }
+}
